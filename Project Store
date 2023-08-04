@@ -1,0 +1,17 @@
+CREATE TABLE clothing_store (id INTEGER PRIMARY KEY, type text, price INTEGER, color text, quantity integer);
+INSERT INTO clothing_store VALUES (1, "Halter Top", 10, "blue", 15);
+INSERT INTO clothing_store VALUES (2, "Crop Top", 12, "pink", 9);
+INSERT INTO clothing_store VALUES (3, "Skirt", 16, "denim", 2);
+INSERT INTO clothing_store VALUES (4, "Cargo Pants", 55, "camo", 7);
+INSERT INTO clothing_store VALUES (5, "Shorts", 18, "orange", 11);
+INSERT INTO clothing_store VALUES (6, "Blazer", 28, "brown", 12);
+INSERT INTO clothing_store VALUES (7, "Jacket", 12, "black", 3); 
+INSERT INTO clothing_store VALUES (8, "Sweatsuit", 60, "purple", 20);
+INSERT INTO clothing_store VALUES (9, "Vest", 15, "gray", 10);
+INSERT INTO clothing_store VALUES (10, "Mini Dress", 32, "green", 11);
+INSERT INTO clothing_store VALUES (11, "Maxi Dress", 40, "beige", 21);
+INSERT INTO clothing_store VALUES (12, "Midi Dress", 22, "violet", 20);
+INSERT INTO clothing_store VALUES (13,"Jacket", 6, "orange", 5);
+INSERT INTO clothing_store VALUES (14, "Sweatsuit", 50, "gray", 1);
+INSERT INTO clothing_store VALUES (15, "Vest", 8, "purple", 8);
+SELECT * FROM clothing_store
